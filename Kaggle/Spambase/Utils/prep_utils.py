@@ -1,5 +1,5 @@
 """
-Utilities for correlation related functions.
+Utilities for data pre-proccessing related functions.
 """
 
 #Libraries

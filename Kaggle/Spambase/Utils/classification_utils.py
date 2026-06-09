@@ -1,5 +1,5 @@
 """
-Utilities for correlation related functions.
+Utilities for classification related functions.
 """
 
 #Libraries
