@@ -22,7 +22,7 @@ An ongoing machine learning project exploring how email characteristics can be u
 A data science project exploring the factors influencing student placement outcomes. The study combines exploratory analysis, clustering, predictive modelling, and score-based decision frameworks to emulate admission behaviour and support placement decision-making.
 
 📝 Status: `Complete` <br />
-📁 Location: `Kaggle/Student College Placement Factors`
+📁 Location: `Kaggle/College Student Placement Factors`
 
 ---
 
