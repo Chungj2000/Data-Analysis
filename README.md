@@ -10,7 +10,7 @@ A portfolio repository, which contains a collection of data analytics, data scie
 
 An ongoing machine learning project exploring how email characteristics can be used to distinguish legitimate messages from spam. The project investigates feature importance, model evaluation, and classification performance using Logistic Regression, Naive Bayes, and Random Forest models.
 
-📝 Status: `Ongoing`
+📝 Status: `Ongoing` <br />
 📁 Location: `Kaggle/SpamBase`
 
 ---
@@ -21,7 +21,7 @@ An ongoing machine learning project exploring how email characteristics can be u
 
 A data science project exploring the factors influencing student placement outcomes. The study combines exploratory analysis, clustering, predictive modelling, and score-based decision frameworks to emulate admission behaviour and support placement decision-making.
 
-📝 Status: `Complete`
+📝 Status: `Complete` <br />
 📁 Location: `Kaggle/Student College Placement Factors`
 
 ---
@@ -32,7 +32,7 @@ A data science project exploring the factors influencing student placement outco
 
 A customer analytics project focused on identifying risk and value-based customer segments through machine learning and clustering techniques. The study provides actionable business recommendations for retention, risk mitigation, and customer value optimisation.
 
-📝 Status: `Complete`
+📝 Status: `Complete` <br />
 📁 Location: `Uptrail/Project 4`
 
 ---
@@ -43,7 +43,7 @@ A customer analytics project focused on identifying risk and value-based custome
 
 A collaborative analytics project investigating the factors that influence happiness across more than 100 countries. Includes a custom happiness index, interactive dashboard, forecasting, and geographical analysis.
 
-📝 Status: `Complete`
+📝 Status: `Complete` <br />
 📁 Location: `Netcom`
 
 ---
@@ -54,7 +54,5 @@ A collaborative analytics project investigating the factors that influence happi
 
 An executive-style dashboard designed for leadership reporting, focusing on KPI monitoring, profitability analysis, forecasting, and performance tracking.
 
-📝 Status: `Complete`
+📝 Status: `Complete` <br />
 📁 Location: `Qlik`
-
-```
