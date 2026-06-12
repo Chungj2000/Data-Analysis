@@ -21,9 +21,26 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 Evaluate Model - K-fold Cross Validation
 """
 
-#Train the model for each k-fold and evaluate the model performance based on training data set used.
-def Evaluate_kFold_Scores(param_validator, param_model, param_X_Train, param_Y_Train):
-    return cross_val_score(param_model, param_X_Train, param_Y_Train, cv=param_validator, scoring='accuracy')
+#Train the model for each k-fold and evaluate the model performance based on training data set used, and return an array of scores for each split.
+def Evaluate_kFold_Scores(param_validator, param_model, param_x_train, param_y_train):
+    return cross_val_score(param_model, param_x_train, param_y_train, cv=param_validator, scoring='accuracy')
+
+
+
+"""
+Evaluate Model - Describe K-Fold Scores
+"""
+
+#List out the scores for each k-fold, as well as mean and standard deviation.
+def Describe_kFold_Scores(param_scores):
+    for k, score in enumerate(param_scores, start=1):
+        print(f'Score of Split {k}: {score}')
+
+    print("")
+
+    print(f'Average Score per K-fold: {np.mean(param_scores)}')
+    print(f'Standard Deviation of Scores: {np.std(param_scores)}')
+    
 
 
 """
@@ -34,6 +51,8 @@ Evaluate Model - Accuracy Score
 def Evaluate_Accuracy_Score(param_y_test, param_predict):    
     print(f'Accuracy Score: {accuracy_score(param_y_test, param_predict)}')
 
+
+
 """
 Evaluate Model - F1-Score
 """
@@ -43,6 +62,8 @@ def Evaluate_F1_Score(param_y_test, param_predict, param_labels):
     f1 = f1_score(param_y_test, param_predict, average=None)
     print(f'F1 Score ({param_labels[0]}): {f1[0]}')
     print(f'F1 Score ({param_labels[1]}): {f1[1]}')
+
+
 
 """
 Evaluate Model - Confusion Matrix
@@ -59,3 +80,5 @@ def Evaluate_Confusion(param_y_test, param_predict, param_labels):
     plt.xlabel('Predicted Placement')
     plt.ylabel('True Placement')
     plt.show()
+
+
