@@ -4,13 +4,24 @@ A portfolio repository, which contains a collection of data analytics, data scie
 
 ## Featured Projects
 
+### Chicago Crimes
+
+**Tools:** Power BI, Power Query, MySQL
+
+An analytics project processing 8.5M+ records to identify high-impact crime trends. It showcases rigorous data profiling, custom temporal feature engineering, and a star-schema migration to MySQL to solve query efficiency bottlenecks.
+
+📝 Status: `Ongoing` <br />
+📁 Location: `Power BI/Chicago Crimes`
+
+---
+
 ### Spam Email Classification Study
 
 **Tools:** Python, Pandas, Scikit-learn, Jupyter Notebook
 
-An ongoing machine learning project exploring how email characteristics can be used to distinguish legitimate messages from spam. The project investigates feature importance, model evaluation, and classification performance using Logistic Regression, Naive Bayes, and Random Forest models.
+An machine learning project exploring how email characteristics can be used to distinguish legitimate messages from spam. The project investigates feature importance, model evaluation, and classification performance using Logistic Regression, Naive Bayes, and Random Forest models.
 
-📝 Status: `Ongoing` <br />
+📝 Status: `Complete` <br />
 📁 Location: `Kaggle/SpamBase`
 
 ---
