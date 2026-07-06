@@ -6,7 +6,7 @@ A portfolio repository, which contains a collection of data analytics, data scie
 
 ### Chicago Crimes
 
-**Tools:** Power BI, Power Query, MySQL
+**Tools:** Power BI, Power Query, MySQL, DAX Studio
 
 An analytics project processing 8.5M+ records to identify high-impact crime trends. It showcases rigorous data profiling, custom temporal feature engineering, and a star-schema migration to MySQL to solve query efficiency bottlenecks.
 
